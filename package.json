@@ -8,8 +8,9 @@
     "start": "next start",
     "lint": "next lint --dir src",
     "lint-staged": "lint-staged",
+    "prepare": "husky install",
     "test": "jest",
-    "prepare": "husky install"
+    "test:ci": "jest --coverage --silent --ci"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.0",
